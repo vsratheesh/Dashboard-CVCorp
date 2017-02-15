@@ -11,7 +11,7 @@ div.relative {
 	color: white;
 	font-family: 'Roboto', sans-serif;
     height: 150px;
-	background-color: #A3E4D7; 
+	background-color: #000; 
 		
 } 
 
@@ -23,10 +23,17 @@ div.absolute {
     height: 100px;
  
 }
+.hr1{
+	margin:0px; 
+}
+
+.ids{
+	color:white;
+}
 .abs{
 position:relative;
 margin-top: 44px!important;
-background-color: rgba(0,0,0,.10); 
+background-color: white; 
 border-radius: 35px;
 width: 80%;
 margin: auto;
@@ -37,8 +44,9 @@ font-family: 'Caveat Brush', cursive;
 
 
 }
+
 .wrapper{
-	background-color:#CCD1D1;
+	background-color:#c0c0c0;
 	width: 100%;
 	height:70px;
 	box-sizing: boredr-box;
@@ -57,7 +65,7 @@ padding:0px!important;
 		margin-right: auto; 
 		 overflow-x:hidden; 
 		 /* background-image:url(http://demo.qodeinteractive.com/bridge/wp-content/uploads/2014/03/full01.jpg); */
-		background: #16A085!important;    
+		background: #c0c0c0!important;    
 		/* background-image: url(https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2015/04/colortheory.jpg); */
 		
 /* background: linear-gradient(#AED6F1,#AED6F1)!important; */
@@ -110,7 +118,7 @@ right: 10px;
 color: black;
 } 
 .chat{
-background-color: #5DADE2;
+background-color: #000;
 height:500px; 
 width: 59%;
 margin-top: 0px;
@@ -211,7 +219,7 @@ padding: 10px;
 
 }
 .chat ul li a{
-color: black!important;
+color: white!important;
 font-size: 15px;
 
 }
